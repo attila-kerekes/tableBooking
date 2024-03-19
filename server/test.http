@@ -1,0 +1,13 @@
+
+POST http://localhost:3000/api/reservations
+Content-Type: application/json
+
+{
+    "customerId": "651d39088836ccda330e70d0",
+    "restaurantId": "651d888eb00a36e5fb4f85d0",
+    "numberOfGuests": "5"
+}
+
+####
+
+GET http://localhost:3000/api/reservations/customer/651d39088836ccda330e70d0
